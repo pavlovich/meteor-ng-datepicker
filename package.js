@@ -3,12 +3,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('moment-range', ['client', 'server']);
-    api.use('ngMeteor', 'client');
+    api.use('ngMeteor', ['client']);
+    api.use('moment-range', ['client']);
 
     // Files to load in Client only.
     api.add_files([
-        'lib/nagerangepicker.js',
+        'lib/daterangepicker.js',
         'lib/daterangepicker-bs3.css',
         'lib/ng-bs-daterangepicker.js',
         'meteor-ng-bootstrap-datepicker.js'
