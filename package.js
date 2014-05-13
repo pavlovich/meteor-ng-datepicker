@@ -11,7 +11,7 @@ Package.on_use(function (api) {
         'lib/daterangepicker.js',
         'lib/daterangepicker-bs3.css',
         'lib/ng-bs-daterangepicker.js',
-        'meteor-ng-bootstrap-datepicker.js'
+        'meteor-ng-datepicker.js'
 	], 'client');
 
     // Exports the ngMeteor package scope
