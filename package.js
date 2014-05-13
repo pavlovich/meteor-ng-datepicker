@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.use('ngMeteor', ['client']);
-    api.use('moment-range', ['client']);
+    api.use('moment', ['client']);
 
     // Files to load in Client only.
     api.add_files([
