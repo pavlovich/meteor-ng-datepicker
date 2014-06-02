@@ -1,0 +1,17 @@
+{
+	"name": "meteor-ng-datepicker",
+	"description": "Angular date picker packaged for meteor.",
+	"homepage": "https://github.com/pavlovich/meteor-ng-datepicker",
+	"author": "Peter Pavlovich",
+	"git": "https://github.com/pavlovich/meteor-ng-datepicker.git",
+	"version": "0.0.2",
+	"packages": {
+        "ngMeteor": {
+            "git": "git://github.com/pavlovich/ngMeteor.git",
+            "branch": "blaze-support"
+        },
+        "moment": {
+            "git": "git://github.com/acreeger/meteor-moment.git"
+        }
+    }
+}
