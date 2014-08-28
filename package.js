@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('ngMeteor', ['client']);
+    api.use('ng-meteor', ['client']);
     api.use('moment', ['client']);
 
     // Files to load in Client only.
