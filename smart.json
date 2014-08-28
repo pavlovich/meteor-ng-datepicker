@@ -6,9 +6,9 @@
     "git": "https://github.com/pavlovich/meteor-ng-datepicker.git",
     "version": "0.0.2",
     "packages": {
-        "ngMeteor": {
-            "git": "git://github.com/pavlovich/ngMeteor.git",
-            "branch": "blaze-support"
+        "ng-meteor": {
+            "git": "git://github.com/pavlovich/ng-meteor.git",
+            "branch": "angular-driven"
         },
         "moment": {
             "git": "git://github.com/acreeger/meteor-moment.git"
