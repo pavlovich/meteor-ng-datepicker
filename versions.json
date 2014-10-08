@@ -1,0 +1,23 @@
+{
+  "dependencies": [
+    [
+      "meteor",
+      "1.1.1"
+    ],
+    [
+      "moment",
+      "2.8.1"
+    ],
+    [
+      "ng-meteor",
+      "0.0.0"
+    ],
+    [
+      "underscore",
+      "1.0.0"
+    ]
+  ],
+  "pluginDependencies": [],
+  "toolVersion": "meteor-tool@1.0.33",
+  "format": "1.0"
+}

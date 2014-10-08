@@ -8,7 +8,7 @@
     "packages": {
         "ng-meteor": {
             "git": "git://github.com/pavlovich/ng-meteor.git",
-            "branch": "angular-driven"
+            "branch": "master"
         },
         "moment": {
             "git": "git://github.com/acreeger/meteor-moment.git"
