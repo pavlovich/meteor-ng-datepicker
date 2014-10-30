@@ -50,7 +50,7 @@
 }
 
 .daterangepicker .calendar th, .daterangepicker .calendar td {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   white-space: nowrap;
   text-align: center;
   min-width: 32px;
@@ -60,8 +60,8 @@
 .daterangepicker .daterangepicker_end_input label {
   color: #333;
   display: block;
-  font-size: 11px;
-  font-weight: normal;
+  font-size: 11px !important;
+  font-weight: normal !important;
   height: 20px;
   line-height: 20px;
   margin-bottom: 2px;
@@ -71,7 +71,8 @@
 }
 
 .daterangepicker .ranges input {
-  font-size: 11px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .daterangepicker .ranges .input-mini {
@@ -80,7 +81,7 @@
   border-radius: 4px;
   color: #555;
   display: block;
-  font-size: 11px;
+  font-size: 11px !important;
   height: 30px;
   line-height: 30px;
   vertical-align: middle;
@@ -96,7 +97,7 @@
 }
 
 .daterangepicker .ranges li {
-  font-size: 13px;
+  font-size: 13px !important;
   background: #f5f5f5;
   border: 1px solid #f5f5f5;
   color: #08c;
@@ -227,12 +228,12 @@
 }
 
 .daterangepicker td.week, .daterangepicker th.week {
-  font-size: 80%;
+  font-size: 80% !important;
   color: #ccc;
 }
 
 .daterangepicker select.monthselect, .daterangepicker select.yearselect {
-  font-size: 12px;
+  font-size: 12px !important;
   padding: 1px;
   height: auto;
   margin: 0;
@@ -258,10 +259,12 @@
 }
 
 .daterangepicker_end_input {
-  float: left; 
+  float: left;
   padding-left: 11px
 }
 
 .daterangepicker th.month {
   width: auto;
 }
+
+
