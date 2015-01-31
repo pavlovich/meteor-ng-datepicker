@@ -1,10 +1,15 @@
 Package.describe({
-	summary: " Luis Farzati angularization of Dan Grossman's bootstrap-daterangepicker, repackaged for meteor."
+  name: 'sgi:ng-datepicker',
+  version: '0.0.2',
+  summary: 'Luis Farzati angularization of bootstrap-daterangepicker by Dan Grossman, repackaged for meteor.',
+  git: 'http://github.com/pavlovich/meteor-ng-datepicker',
+  documentation: 'README.md'
 });
 
 Package.on_use(function (api) {
-    api.use('ng-meteor', ['client']);
-    api.use('moment', ['client']);
+    api.versionsFrom('METEOR@1.0.3')
+    api.use('sgi:ng-meteor@0.0.2', 'client');
+    api.use('momentjs:moment@2.9.0', 'client');
 
     // Files to load in Client only.
     api.add_files([
