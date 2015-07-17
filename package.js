@@ -7,12 +7,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.versionsFrom('METEOR@1.0.3')
-    api.use('sgi:ng-meteor@0.0.2', 'client');
-    api.use('momentjs:moment@2.9.0', 'client');
+    api.versionsFrom('METEOR@1.0.3');
+    //api.use('angular:angular@1.4.0');
+    api.use('momentjs:moment@2.8.4');
 
     // Files to load in Client only.
-    api.add_files([
+    api.addFiles([
         'lib/daterangepicker.js',
         'lib/daterangepicker-bs3.css',
         'lib/ng-bs-daterangepicker.js',
@@ -20,5 +20,6 @@ Package.on_use(function (api) {
 	], 'client');
 
     // Exports the ngMeteor package scope
-    api.export('ngMeteor', 'client');
+    //api.export('ngMeteor', 'client');
+    api.export('moment');
 });

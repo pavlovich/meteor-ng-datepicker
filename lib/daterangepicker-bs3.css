@@ -249,9 +249,14 @@
   width: 40%;
 }
 
-.daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.ampmselect {
+.daterangepicker select.hourselect, .daterangepicker select.minuteselect{
   width: 50px;
   margin-bottom: 0;
+}
+
+.daterangepicker select.ampmselect {
+    width: 55px;
+    margin-bottom: 0;
 }
 
 .daterangepicker_start_input {
@@ -267,4 +272,10 @@
   width: auto;
 }
 
+.daterangepicker button.btn-default:hover {
+    background-position: 0 -27px;
+}
 
+.daterangepicker button.btn-default:focus {
+    background-position: 0 -27px;
+}

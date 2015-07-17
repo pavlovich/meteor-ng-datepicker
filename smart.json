@@ -6,10 +6,10 @@
     "git": "https://github.com/pavlovich/meteor-ng-datepicker.git",
     "version": "0.0.2",
     "packages": {
-        "ng-meteor": {
-            "git": "git://github.com/pavlovich/ng-meteor.git",
-            "branch": "master"
-        },
+//        "ng-meteor": {
+//            "git": "git://github.com/pavlovich/ng-meteor.git",
+//            "branch": "master"
+//        },
         "moment": {
             "git": "git://github.com/acreeger/meteor-moment.git"
         }
